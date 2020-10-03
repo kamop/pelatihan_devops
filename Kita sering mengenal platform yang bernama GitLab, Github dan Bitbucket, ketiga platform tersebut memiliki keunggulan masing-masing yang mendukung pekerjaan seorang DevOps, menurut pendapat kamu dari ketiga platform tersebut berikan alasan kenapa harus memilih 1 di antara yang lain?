@@ -1,0 +1,25 @@
+Bitbucket adalah layanan hosting berbasis web untuk kode sumber dan proyek pengembangan yang menggunakan sistem kontrol revisi Mercurial (sejak diluncurkan)
+atau Git (sejak Oktober 2011) yang dimiliki oleh Atlassian. Bitbucket menawarkan paket komersial dan akun gratis. 
+Ia menawarkan akun gratis dengan repositori pribadi dalam jumlah tidak terbatas (yang dapat memiliki hingga lima pengguna dalam hal akun gratis) pada September 2010. 
+Bitbucket terintegrasi dengan perangkat lunak Atlassian lainnya seperti Perangkat Lunak JIRA, HipChat,Confluence, dan Bamboo.
+
+GitLab adalah layanan mirip github yang dapat digunakan organisasi untuk menyediakan manajemen internal git repositories. 
+Ini adalah sistem manajemen Git-repository yang di-host-sendiri yang menjaga code private pengguna dan 
+dapat dengan mudah menyebarkan perubahan kode.
+keuntungan menggunakan gitlab
+GitLab menyediakan versi GitLab Community Edition bagi pengguna untuk menemukan di mana server kode mereka present.
+GitLab menyediakan public repositories dan private tanpa batas secara gratis.
+The Snippetsection dapat membagikan sejumlah kecil kode dari suatu proyek, alih-alih membagikan seluruh proyek.
+
+GitHub adalah layanan web untuk proyek pengembangan perangkat lunak yang menggunakan sistem pengontrol versi Git dan layanan hosting internet.
+Ini memberikan kontrol akses dan beberapa fitur kolaborasi seperti pelacakan bug, permintaan fitur, manajemen tugas,
+untuk setiap proyek. GitHub menawarkan paket repositori pribadi dan gratis pada akun yang sama dan digunakan untuk proyek perangkat lunak sumber terbuka.
+
+GitHub mendukung:
+- Impor Git, SVN, HG, TFS.
+GitLab mendukung:
+- Impor Git.
+-Mudah mengimpor dari layanan lain GitHub, Bitbucket, Google Code, Fogbugz.
+Bitbucket mendukung:
+- Impor Git, CodePlex, Google Code, HG, SourceForge, SVN.
+
