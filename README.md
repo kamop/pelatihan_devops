@@ -14,7 +14,8 @@ tem operasi ubuntu
 
 
 
-https://medium.com/programmer-geek/apa-itu-devops-dca7c1c2dc92
-https://blog.cilsy.id/2018/07/apa-itu-devops.html
+soal no satu https://medium.com/programmer-geek/apa-itu-devops-dca7c1c2dc92
+soal no 2 : https://blog.cilsy.id/2018/07/apa-itu-devops.html
+soal no 4 : https://www.exabytes.co.id/blog/apa-itu-docker-dan-mengapa-docker-sangat-populer/
 
 
