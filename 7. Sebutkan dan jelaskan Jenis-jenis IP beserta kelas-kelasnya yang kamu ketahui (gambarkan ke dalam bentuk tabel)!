@@ -1,0 +1,56 @@
+Kelas A
+
+Format : 0nnnnnnn.hhhhhhhh.hhhhhhhh.hhhhhhhh (n = Net ID, h = Host ID)
+Bit Pertama : 0
+Panjang Net ID : 8 bit (1 oktet)
+Panjang Host ID : 24 bit (3 oktet)
+Oktet pertama : 0 - 127
+Range  IP address : 1.xxx.xxx.xxx.sampai 126.xxx.xxx.xxx (o dan 127 dicadangkan)
+Jumlah Network : 126
+Jumlah IP address : 16.777.214
+
+     IP kelas A untuk sedikit jaringan dengan host yang sangat banyak. cara membaca IP address kelas A misalnya 113.46.5.6 ialah : Network ID :113, Host ID = 46.5.6
+
+Kelas B
+
+Format : 10nnnnnn.nnnnnnnn.hhhhhhhh.hhhhhhhh (n = Net ID, h = Host ID)
+2 bit pertama : 10
+Panjang Net ID : 16 bit (2 oktet)
+Panjang Host ID : 16 bit (2 oktet)
+Oktet pertama : 128 - 191
+Range IP address : 128.0.0.xxx sampai 191.255.xxx.xxx
+Jumlah Network : 16.384
+Jumlah IP address : 65.534
+
+    Biasa digunakan untuk jaringan besar dan sedang. dua bit pertama selalu di set 10. 16 bit selanjutnya, network IP kelas B dapat menampung sekitar 65000 host.
+
+Kelas C
+
+Format : 110nnnnn.nnnnnnnn.nnnnnnnn.hhhhhhhh (n = Net ID, h = Host ID)
+3 bit pertama : 110
+Panjang Net ID : 24 bit (3 oktet)
+Panjang Host ID : 8 bit (1 oktet)
+Oktet pertama : 192 - 223
+Range IP address : 192.0.0.xxx sampai 255.255.255.xxx
+Jumlah Network : 2.097.152
+Jumlah IP address : 254
+
+    Host ID adalah 8 bit terakhi, dengan IP kelas C, dapat dibentuk sekitar 2 juta network yang masing-masing memiliki 256 IP address  Tiga bit pertama IP address kelas C selalu berisi 111 dengan 21 bit berikutnya. Host ID ialah 8 bit terakhir.
+
+Kelas D
+
+Format : 1110mmmm.mmmmmmmm.mmmmmmmm.mmmmmmmm
+4 Bit pertama : 1110
+Bit multicast : 28 bit
+Byte Inisial : 224-247
+Deskripsi : Kelas D adalah ruang alamat multicast
+
+    Kelas ini digunakan untuk keperluan Multicasting. 4 bit pertama 1110, bit-bit berikutnya diatur sesuai keperluan multicast group yang menggunakan IP address ini. Dalam multicasting tidak dikenal network bit dan host bit.
+
+Kelas E
+
+Format : 1111rrr.rrrrrrrr.rrrrrrrr.rrrrrrrr
+4 bit pertama : 1111
+Bit cadangan : 28 bit
+Byte inisial : 248-255
+Deskripsi : Kelas E adalah ruang alamat yang dicadangkan untuk keperluan eksperimental.
