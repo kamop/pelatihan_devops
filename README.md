@@ -21,6 +21,9 @@ jawaban no 8.
 ![echo](https://user-images.githubusercontent.com/15339982/94990268-e46c2480-05a4-11eb-986a-a8b87b98d2a0.png)
 
 
+jawaban no 9: ![heroku](https://user-images.githubusercontent.com/15339982/94992809-9c55fd80-05b6-11eb-845d-409451f65899.png)
+
+
 
 soal no satu https://medium.com/programmer-geek/apa-itu-devops-dca7c1c2dc92
 soal no 2 : https://blog.cilsy.id/2018/07/apa-itu-devops.html
@@ -29,6 +32,6 @@ soal no 4 :https://www.exabytes.co.id/blog/apa-itu-docker-dan-mengapa-docker-san
 soal no 5 :https://konsultanmsp.wordpress.com/2016/10/19/istilah-devops/,
 soal no 6 :https://blog.ardhosting.com/2018/11/07/apa-itu-ftp-dan-apa-kegunaannya/,
 Soal no 7 :https://www.transiskom.com/2012/10/kelas-kelas-ip-address.html
-soal no 8:
+soal no 8: https://qastack.id/ubuntu/435291/add-words-to-a-text-file-using-a-single-terminal-command-no-editors
 
 
