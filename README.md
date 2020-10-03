@@ -13,7 +13,10 @@ tem operasi ubuntu
 ![devops-6-644x644](https://user-images.githubusercontent.com/15339982/94982753-65a4c680-0567-11eb-97f5-ca2972153302.png)
 
 
+TABEL SOAL NO 7: ![Kelas-Kelas IP Address - Transiskom](https://user-images.githubusercontent.com/15339982/94983672-2f6b4500-056f-11eb-926e-1240dce4d1f4.jpg)
 
+
+![perbedaan-continuos-delivery-dan-deployment](https://user-images.githubusercontent.com/15339982/94983675-31350880-056f-11eb-9209-cb14aa4d63f7.jpg)
 soal no satu https://medium.com/programmer-geek/apa-itu-devops-dca7c1c2dc92
 soal no 2 : https://blog.cilsy.id/2018/07/apa-itu-devops.html
 soal no 4 : https://www.exabytes.co.id/blog/apa-itu-docker-dan-mengapa-docker-sangat-populer/
