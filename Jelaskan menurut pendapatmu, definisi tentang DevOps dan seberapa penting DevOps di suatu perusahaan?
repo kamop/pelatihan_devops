@@ -1,6 +1,7 @@
 DevOps adalah serangkaian pekerjaan yang mengotomasisasi proses antara Software Development dan Development Team agar mereka dapat melakukan proses build, 
 test dan release perangkat lunak lebih cepat dan lebih handal.
-
+devops itu tergantung budaya perusahan dan jenis website atau aplikasi nya. jika suatu perusahaan itu memiliki website atau aplikasi yang tiap minggu mengalami
+pengupdaten dan pengupdaten nya perlu cepat maka perusahaan tersebut bagusnya menggunakan devops.
 Salah satu best practices dalam DevOps yaitu melakukan update produk yang kecil dan cepat. 
 Dalam industri IT, ini bisa disebut dengan minor / patch update. 
 Dengan melakukan update produk yang kecil, organisasi/perusahaan dapat melakukan inovasi lebih cepat bagi produknya, 
