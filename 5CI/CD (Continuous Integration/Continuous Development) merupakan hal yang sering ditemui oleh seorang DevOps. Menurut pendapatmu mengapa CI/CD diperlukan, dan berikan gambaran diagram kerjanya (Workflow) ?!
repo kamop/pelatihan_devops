@@ -1,0 +1,24 @@
+Istilah Continuous Integration (CI) mungkin yang paling banyak disebut dalam praktek DevOps. Ini adalah tentang kompilasi atau pembuatan perangkat lunak secara terus menerus. Dengan melakukan check-in pada setiap sistem yang memicu proses kompilasi, menjalankan tes unit, menjalankan alat-alat analisa statistik, dan pemeriksaan kualitas terkait otomatisasi. Dalam CI juga terdapat penyebaran otomatis pada suatu lingkungan sehingga kita dapat mengetahui bahwa sistem dapat digunakan.
+
+Hal tersebut biasanya berarti bahwa Anda memiliki seluruh kode yang tergabung ke dalam arus utama sebelum menjalankan proses ini. 
+Bekerja dari arus utama dapat menantang dan sering konsep seperti matikan fitur yang digunakan untuk mengaktifkan diferensiasi antara fitur yang siap 
+untuk dikonsumsi dan fitur yang masih berlangsung. Hal ini menyebabkan varian mana Anda menjalankan integrasi berkesinambungan pada cabang kode tertentu, 
+yang tidak ideal, tapi lebih baik daripada tidak memiliki integrasi berkesinambungan sama sekali
+Prinsip Continuous Integration
+
+Continuous Integration dalam arti yang lebih luas bertujuan untuk mengintegrasikan seluruh sistem / solusi sesering dan sedini mungkin. 
+Bagi kebanyakan orang, Continuous Integration berarti bahwa pengintegrasian seluruh sistem saya, sementara mungkin kita memiliki Server Terintegrasi Berkelanjutan 
+yang berjalan pada modul tunggal dari sistem.
+
+Ini juga berarti kita ingin menjalankan tes integrasi awal dan menyebarkan sistem ke lingkungan. Hal ini juga berarti “mengintegrasikan” 
+Data tes awal dengan sistem untuk menguji sedekat mungkin dengan integrasi akhir.
+Perbedaan Continuous Delivery dan Continuous Deployment
+
+Apa perbedaan Continuous Delivery dengan Continuous Deployment?. Silahkan lihat gambar berikut ini:
+Seperti yang terlihat, praktek utama secara umum sama. Perbedaan terletak di mana penerapannya. Dalam Continuous Delivery, 
+kita bertujuan untuk memiliki SDLC secara otomatis sampai lingkungan terakhir sebelum produksi. Sehingga kita bisa siap setiap saat untuk menyebar secara otomatis ke produksi.
+Dalam Continuous Deployment, kita melangkah lebih jauh. Hal ini memungkinkan kita untuk benar-benar secara otomatis menyebarkan ke produksi. 
+Perbedaannya hanya apakah ada atau tidak ada pemicu otomatis atau manual. Tentu saja praktek semacam ini memerlukan peralatan yang benar-benar baik 
+di seluruh rantai pasokan pengiriman.
+Anda harus memiliki peralatan tes yang lebih canggih yang memungkinkan untuk menguji semua aspek yang berbeda dari sistem (kinerja , kesiapan operasional, dll). 
+Dan akan sering ada kasus di mana kita memerlukan beberapa pemeriksaan manual untuk kegunaan atau aspek non-automatable lainnya.
