@@ -16,6 +16,12 @@ tem operasi ubuntu
 TABEL SOAL NO 7: ![Kelas-Kelas IP Address - Transiskom](https://user-images.githubusercontent.com/15339982/94983672-2f6b4500-056f-11eb-926e-1240dce4d1f4.jpg)
 
 gambar soa no 4: ![perbedaan-continuos-delivery-dan-deployment](https://user-images.githubusercontent.com/15339982/94983675-31350880-056f-11eb-9209-cb14aa4d63f7.jpg)
+
+jawaban no 8.
+![echo](https://user-images.githubusercontent.com/15339982/94990268-e46c2480-05a4-11eb-986a-a8b87b98d2a0.png)
+
+
+
 soal no satu https://medium.com/programmer-geek/apa-itu-devops-dca7c1c2dc92
 soal no 2 : https://blog.cilsy.id/2018/07/apa-itu-devops.html
 soal no 3 :https://www.jetorbit.com/blog/apa-itu-gitlab-serta-kelebihan-kekurangan-gitlab/, https://steemit.com/github/@ilmumasbro/perbedaan-github-dengan-bitbucket, https://id.bccrwp.org/compare/the-key-differences-gitlab-vs-github-vs-bitbucket-7390f0/
@@ -23,6 +29,6 @@ soal no 4 :https://www.exabytes.co.id/blog/apa-itu-docker-dan-mengapa-docker-san
 soal no 5 :https://konsultanmsp.wordpress.com/2016/10/19/istilah-devops/,
 soal no 6 :https://blog.ardhosting.com/2018/11/07/apa-itu-ftp-dan-apa-kegunaannya/,
 Soal no 7 :https://www.transiskom.com/2012/10/kelas-kelas-ip-address.html
-
+soal no 8:
 
 
