@@ -1,0 +1,16 @@
+File Transfer Protocol (FTP) adalah sebuah protokol yang berfungsi untuk mengirim atau menerima file dalam suatu network yang mensupport TCP/IP protokol. 
+Dua hal penting yang ada dalam FTP adalah FTP server dan FTP Client. FTP server menjalankan software yang digunakan untuk tukar menukar file, yang selalu siap memberian layanan FTP apabila mendapat request dari FTP client. FTP client adalah komputer yang merequest koneksi ke FTP server untuk tujuan tukar 
+menukar file (mengupload atau mendownload file).
+
+File Transfer Protocol (FTP) adalah sebuah protokol yang berfungsi untuk mengirim atau menerima file dalam suatu network yang mensupport TCP/IP protokol. Dua hal penting yang ada dalam FTP adalah FTP server dan FTP Client. FTP server menjalankan software yang digunakan untuk tukar menukar file, yang selalu siap memberian layanan FTP apabila mendapat request dari FTP client. FTP client adalah komputer yang merequest koneksi ke FTP server untuk tujuan tukar menukar file (mengupload atau mendownload file).
+
+FTP memiliki banyak fungsi atau manfaat yang menguntungkan bagi penggunanya, misalnya saja :
+
+    Kita dapat melakukan pertukaran file antar komputer dengan mudah, walaupun file tersebut memiliki ukuran yang besar.
+    Bagi pemilik website, dengan adanya FTP, mereka dapat melakukan backup website mereka dengan mudah.
+    Kita dapat melakukan indirect maupun implicit remote computer.
+    FTP menyediakan transfer data yang reliabel dan efisien, karena setiap pengguna tidak memerlukan tahapan-tahapan yang rumit untuk memperoleh suatu file atau mentransfer suatu file.
+    FTP memfasilitasi tiap pengguna untuk melakukan transfer data secara dua arah. Artinya, jika FTP digunakan dalam sebuah perusahaan, maka setiap pemimpin perusahaan mampu mengirimkan file kepada karyawannya dan sebaliknya, dengan menggunakan server yang sama.
+    Progress perpindahan data tidak akan hilang walaupun sambungan terputus.
+    Transer data/file dapat dilakukan dengan mudah dan terorganisir.
+dengan alasan kegunaan ftp diatas maka si lae menggunakan tools FTP tersebut
