@@ -1,0 +1,71 @@
+sebelum ada nya devops membangun dan melakukan update suatu aplikasi itu ada 3 jenis orang. developper, IT operation, dan QA.
+developper ini membuat dan mengembangkan aplikasi(coding), IT operation dia yang menggupload hasil kodingan ke server(production). 
+dan QA itu yang mengetest apakah aplikasi layak untuk diupload atau tidak.
+
+Terkadang ada tambahan 1 tim lagi yaitu tim Quality Assurance yang melakukan pengecekan apakah fitur / bug yang sudah di upload di server tersebut sudah sesuai dengan kriteria atau belum.
+
+Dalam prakteknya, kedua tim ini akan melalui proses berikut saat develop sebuah fitur aplikasi :
+
+    Developer menulis kode secara lokal di laptop masing-masing
+    Operation mempersiapkan server Test
+    Developer meminta tim Operation untuk mengupload kode ke server Test
+    Operation mengupload kode ke Server Test
+    QA/Tester melakukan pengetesan, dan berhasil
+    Developer meminta tim Operation untuk mengupload kode ke server Production
+    Operation mempersiapkan server Production
+    Operation mengupload kode ke Server Production
+
+Step diatas merupakan contoh ideal, dimana sebuah bug / fitur berhasil dirilis dengan sempurna. Sekarang coba lihat bagaimana sebuah bug / fitur ketika mengalami kendala saat prosesnya :
+
+    Developer menulis kode secara lokal di laptop masing-masing
+    Operation mempersiapkan server Test
+    Developer meminta tim Operation untuk mengupload kode ke server Test
+    Operation mengupload kode ke Server Test
+    QA/Tester melakukan pengetesan
+    Fitur/bug tidak berjalan dengan baik. QA/Tester melakukan pelaporan kepada pihak Developer
+    Developer merasa bug ini bukan dari sisi program, melainkan dari sisi server
+    Developer melakukan pelaporan kepada pihak Operation
+    Pihak Operation melakukan pengecekan. Tidak menemukan masalah dari sisi server. Operation melakukan pelaporan kepada Developer
+    Developer meminta Operation melakukan Rollback
+    Operation melakukan Rollback
+    Developer mengerjakan kode secara lokal
+    Developer meminta tim Operation untuk mengupload kode ke server Test
+    Operation mengupload kode ke Server Test
+    QA/Tester melakukan pengecekan. Berhasil
+    
+    Coba lihat. Secara sekilas saja kita bisa menilai bahwa seluruh step diatas itu begitu lambat, tidak efektif, dan terlalu banyak birokrasi.
+Ketika ada 1 problem di sisi server Test, ternyata menyebabkan pembengkakan proses dari 5 langkah menjadi 14 langkah, serta terjadi delay / bottleneck pekerjaan dimana-mana.
+Belum lagi jika ada problem dari sisi Server Production yang mana masalah tersebut akan langsung dirasakan oleh pengguna.
+Bisa Anda bayangkan proses untuk melakukan rollback (pengembalian kode ke kondisi sebelumnya) juga akan membutuhkan proses yang sama panjangnya.
+Seberapa kecewa misalnya pelanggan Bukalapak apabila website mereka down selama 1 – 2 jam hanya karena tim Developer dan tim Operation Bukalapak kesulitan dalam melakukan rollback ?
+Jika Anda teliti, proses yang panjang dan rumit ini sebenarnya diakibatkan oleh terpisahnya sistem kerja dan tanggung jawab dari tim Developer dan tim Operations.
+Tim Developer seakan-akan hanya bertanggung jawab di kode, dan tim Operation hanya berwenang disisi server.
+Ini membuat seluruh proses development akan sangat ketergantungan satu sama lain dan membutuhkan birokrasi yang begitu panjang. Sehingga menimbulkan bottleneck yang begitu besar dalam proses Development.
+Seringkali tim Developer akan berdiam diri tidak bisa bekerja hanya karena harus menunggu pekerjaan mereka di upload oleh tim Operation.
+
+dari sisi IT operation juga begitu tim Operation mengalami kesulitan dalam mengelola stabilitas dan uptime server. Server akan berulang kali mengalami problem akibat banyaknya bug dan fitur baru yang perlu di upload dan disesuaikan.
+Bisa Anda bayangkan tim Operation harus terus menjaga seluruh server tetap berjalan dengan baik sembari terus menerus mengkoordinir pekerjaan Developer yang butuh untuk segera di upload atau di rollback.
+Begitu lambatnya proses ini pula, maka organisasi yang tidak menggunakan DevOps juga akan selalu mengalami kesulitan dalam memilih & memperbaiki bug pada sistem yang berjalan atau mengerjakan fitur yang baru.
+Akibatnya apa ? Perusahaan akan sangat lambat dalam merespon permintaan customer dan pasti akan terlibas oleh kompetitor.
+maka suatu perusahaan tersebut harus menggunakan devops jika perusahaan tersebut tidak ingin terlibas oleh kompetitor.
+DevOps sebenarnya adalah istilah untuk sebuah kultur dimana tim Developer dan tim Operation bekerja sama dalam proses development sebuah aplikasi agar lebih cepat dan efisien.
+Bagaimana agar cepat dan efisien ? Dengan menciptakan kultur sistem yang Iteratif, Kolaboratif, Kontinyu, Sistematis, dan Ter-otomatisasi.
+Tim Dev dan Tim Ops tidak lagi bekerja sendiri-sendiri melainkan benar-benar melebur menjadi satu persis.
+
+Secara garis besar goal utama dari seorang DevOps Engineer adalah :
+
+Bagaimana caranya membangun sistem infrastruktur yang terotomasi, terintegrasi, dan fleksibel agar Developer dapat meluncurkan kode-kode mereka secepat dan seefisien mungkin.
+
+Sehingga dalam sehari-harinya tugas DevOps Engineer ini adalah sebagai berikut :
+
+    Membangun sistem Containerisasi atau Virtualisasi
+    Membangun sistem infrastruktur yang terotomatisasi dan terintegrasi
+    Membangun sistem monitoring yang efektif
+
+Jika Anda adalah seorang System Administrator atau System Engineer yang sudah terbiasa menangani server-server di perusahaan, sebenarnya DevOps Engineer ini pekerjaannya sama persis dengan Anda.
+Yang beda hanyalah mindset.
+Yang dulunya System Administrator pokoknya yang penting server jalan dan jadi, saling menyalahkan dan tuduh menuduh dengan Developer, hingga Developer kalau ingin mengerjakan apa-apa di Server harus izin dulu, itu semua sudah tidak berlaku lagi.
+Sekarang mindsetnya adalah bagaimana caranya seluruh kegiatan System Administrator ini menjadi terotomatisasi dan terintegrasi untuk menunjang tim Developer.
+Bagaimana caranya ? Kuncinya adalah penggabungan ilmu Sysadmin dengan tools-tools otomasi, integrasi, serta ilmu koding dan scripting.
+Tools ini banyak sekali mulai dari Git, Jenkins, Ansible, Puppet, Kubernetes, Docker, AWS, dan sebut saja yang lainnya.
+Disinilah letak seni-nya. Bagaimana seorang DevOps Engineer dapat memanfaatkan tools-tools tersebut untuk mencapai goal besar tadi.
